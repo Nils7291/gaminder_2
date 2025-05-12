@@ -4,7 +4,6 @@ import plotly.express as px
 import sys
 import numpy as np
 import time
-sys.path.append(r'C:\Users\nilst\Documents\GitHub_Repos\Gapminder')
 from data_preprocessing import get_data
 
 # Funktion zum Umwandeln der Population in numerische Werte

@@ -3,9 +3,9 @@ import streamlit as st
 
 # Lade die CSV-Dateien
 def load_data():
-    life_expectancy_df = pd.read_csv("../data/life_expectancy.csv")
-    population_df = pd.read_csv("../data/population.csv")
-    gni_df = pd.read_csv("../data/gni_per_capita.csv")
+    life_expectancy_df = pd.read_csv("life_expectancy.csv")
+    population_df = pd.read_csv("population.csv")
+    gni_df = pd.read_csv("gni_per_capita.csv")
     return life_expectancy_df, population_df, gni_df
 
 # Fehlende Werte mit Forward Fill auffüllen und in Tidy Format umwandeln
