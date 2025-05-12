@@ -55,7 +55,7 @@ um diese im selben Diagramm zu vergleichen.
 Klicken Sie auf den 'Play'-Button, um die Entwicklung der ausgewählten Länder von Jahr zu Jahr 
 zu beobachten.
 """)
-
+st.write("BIPM Project - Unlocking Lifetimes: Visualizing Progress in Longevity and Poverty Eradication ")
 # Jahr-Slider
 year_slider = st.slider('Wählen Sie ein Jahr', min_value=int(df['year'].min()), 
                         max_value=int(df['year'].max()), value=2023)
